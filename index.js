@@ -8,7 +8,7 @@ const dotenv = require('dotenv');
 const app = express();
 
 app.use(cors({
-    origin: ["http://localhost:3000","https://map-pins.onrender.com"],
+    origin: ["https://main.dmey0lfnd7610.amplifyapp.com,http://ec2-3-108-223-201.ap-south-1.compute.amazonaws.com:3000","https://map-pins.onrender.com"],
 }));
 app.use(express.json())
 dotenv.config();
