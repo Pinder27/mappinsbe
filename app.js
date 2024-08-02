@@ -4,11 +4,16 @@ const mongoose = require('mongoose');
 const PinRoute = require('./routers/pins')
 const UserRoute = require('./routers/users')
 const dotenv = require('dotenv');
+const path = require('path')
 
 const app = express();
 
+const _dirname = path.dirname("");
+const buildPath = path.join(_dirname,'../mappinsfe/build')
+app.use(express.static(buildPath))
+
 app.use(cors({
-    origin: [process.env.url,"http://localhost:3000"],
+    origin: ["http://localhost:3000"],
 }));
 app.use(express.json())
 dotenv.config();
