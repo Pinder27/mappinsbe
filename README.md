@@ -1,4 +1,4 @@
-# Map-Pins - https://map-pins.pinderhub.in/
+# Map-Pins - https://map-pins.pinderhub.in
 ## Project - Map-Pins
 Map-Pins is a dynamic location-based application that empowers users to mark and save locations of interest
 on a map, complete with personalized titles and descriptions.
