@@ -1,7 +1,9 @@
-# mappinsbe
+# mappinsbe - https://map-pins.pinderhub.in/
 ## Project - Map-Pins
 Map-Pins is a dynamic location-based application that empowers users to mark and save locations of interest
 on a map, complete with personalized titles and descriptions.
+it is divided in two repos for frontend and backend
+frontend repo - https://github.com/Pinder27/mappinsfe
 
 ## How To Use - 
 1. first login or signup so that locations could be saved when ever you come back
@@ -16,3 +18,8 @@ on a map, complete with personalized titles and descriptions.
 5. Express for backend
 6. Mongodb database
 7. AWS EC2 for deployment
+# To run project locally - 
+1. clone the both the forntend-https://github.com/Pinder27/mappinsfe  and backend-https://github.com/Pinder27/mappinsbe in a single folder and install dependencies for both
+2. add .env file in mappinsfe repo and add REACT_APP_MAPBOX variable containing your mapbox token which you can get by signing on to https://www.mapbox.com/
+3. add .env file in mappinsbe repo and add MONGO_URL variable containing your monogodb url
+4. start your frontend and backend by npm start command by running it separately in both repos.
